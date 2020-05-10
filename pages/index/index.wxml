@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view id="luckdraw_box">
+    <view id="luckdraw_back">
+      <image style='transform:rotate({{ change_angle}}deg)' mode="scaleToFill" src="/images/9791228-3a7f7860c6a40237.webp"></image>
+    </view>
+    <view id="luckdraw_pointer" bindtap='luckDrawStart'>
+      <image mode="scaleToFill" src="/images/9791228-8b99dae679bbb1ac.webp"></image>
+    </view>
+  </view>

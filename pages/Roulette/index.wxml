@@ -1,0 +1,15 @@
+<!-- 轮盘抽奖 背景旋转 -->
+
+<view id="luckdraw_box">
+	<!-- 背景 -->
+	<view id="luckdraw_back">
+		<image style='transform:rotate({{change_angle}}deg)' src="../../images/9791228-3a7f7860c6a40237.webp" mode="scaleToFill"></image>
+	</view>
+	<!-- 指针 -->
+	<view id="luckdraw_pointer" bindtap='luckDrawStart'>
+		<image src="../../images/9791228-8b99dae679bbb1ac.webp" mode="scaleToFill"></image>
+	</view>
+
+	<!-- 次数 -->
+	<view>{{available_num}}</view>
+</view>
